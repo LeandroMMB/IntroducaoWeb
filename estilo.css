@@ -1,5 +1,52 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
 .topo{
 	background-color: lightblue;
 	width: 100%;
+	padding: 30px;
 	float: left;
+}
+
+nav{
+	float: left;
+	width: 30%;
+	height: 300px;
+	background: #ccc;
+	padding: 20px;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	font-size: 1.5em;
+}
+
+nav a{
+	text-decoration: none; /* remove a linha do link */
+}
+
+article{
+	float: left;
+	padding: 20px;
+	width: 70%;
+	background: #f1f1f1;
+	height: 300px;
+}
+
+section{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer{
+	background: lightblue;
+	padding: 10px;
+	text-align: center;
 }
